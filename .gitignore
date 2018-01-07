@@ -1,0 +1,19 @@
+<!DCTYPE html>
+<html>
+<head>
+<title>this is my first site</title>
+<meta charset="utf-8">
+<link rel="stylesheets"href="asset/mail.css">
+<body>
+<h1>
+ hello world！
+ </h1>
+ <style>
+  h2{
+  color:red;
+  font-size:20px;
+  }
+  </style>
+  <h2>bilding is a great.</h2>
+  </body>
+  </html>
