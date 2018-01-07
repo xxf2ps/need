@@ -1,11 +1,6 @@
 # needt
 这是一个简短的文件
-<!doctype html>
-<html>
-  <head>
-    <title>free job</title>
-    <meta charset="uft-8">
-  </head>
+
   <body>
     <h1><i>new</i>style!</h1>
     <a href="twitter-logo.png">
