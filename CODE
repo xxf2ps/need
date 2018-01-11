@@ -8,7 +8,8 @@
  <h1>hello world</h1>
  <p>when you see this world ,you may think where are  you from?what you will do ?</p>
  <div>
-  <a href="http://www.baidu.com">baidu can answer you</a>
+  <a href="http://www.baidu.com">baidu can answer you</a>or
+  <a href="https://www.google.com">google give you more help</a>
   <ul>
    <li>listen some course about it </li>
    <li>find some document about it</li>
