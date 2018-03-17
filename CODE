@@ -16,6 +16,29 @@
    <li>discuss it with others</li>
    </ul>
    </div>
+   <div>
+   <p>if you like reading or running you will feel cool</p>
+   <dl>
+   <dt>learn more about yourself</dt>
+   <dd>life always play  you and other people ,it make you more confident to own way.</dd>
+   <dt>Do not give up youreself easily </dt>
+   <dd>your friend and family will help you to change your future</dd>
+   </dl>
+   <input type="time" required placeholder="birthday">
+   <textarea>no junkfood ,no bad experience</textarea>
+   <strong>good good study day day up</strong>
+   <small>time is life</small>
+   <button type="submit ">send</button>
+   <h2>love is forever</h2>
+   <span>blue is a good color</span>
+   <blockquote> happy birthday to you</blockquote>
+   <ol>
+   <li start="3">lanlandahai</li>
+   <li>fengzucannian </li>
+   <li>shenghuojianxin</li>
+   <li>buwangchuxin</li>
+   </ol>
+   
    <body>
    <html>
   
