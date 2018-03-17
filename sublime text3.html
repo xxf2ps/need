@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>sublime text3</title>
+	<!--本次练习主要复习了表单控件，伪元素，浮动,布局计算等样式设置-->
+	<style>
+	html{
+		margin:0;
+		padding:0;
+	}
+	body{
+		width:1300px;
+		margin:0 auto;
+		padding:0;
+	}
+		.container{
+			
+			width:100%;
+			height:900px;
+			
+
+		}
+		.header{
+			background-color:pink;
+		}
+		.main{
+			background-color:orange;
+			height:700px;
+
+		}
+		.foot{
+			background-color:green;
+			margin-top:10px;
+			height:100px;
+			
+		}
+		/*=header*/
+		h2{
+			text-align:center;
+			font-weight:bold;
+			text-transform: capitalize;
+			font-size:50px;
+		}
+		.header h2::before,
+		.header h2::after{
+			content:"*******-------";
+			color:blue;
+
+		}
+		ul{
+			list-style:none;
+			margin-top:30px;
+
+		}
+		li{
+			display: inline-block;
+
+		}
+		li a{
+			text-decoration:none;
+			color:black;
+			font-style: normal;
+			color:black;
+			margin:0 30px;
+			padding:3px;
+			font-size:30px;
+
+		}
+		li a:hover{
+			color:red;
+		}
+		li a::before{
+			content:" ";
+			display:inline-block;
+			width:10px;
+			height:10px;
+			background-color:green;
+			border-radius: 100%;
+			margin-left:10px;
+
+			
+
+		}
+        .header p{
+        	text-indent:28px;
+        	line-height: 1.5;
+        	width:90%;
+        	text-align:left;
+        	border-bottom:1px solid #0c87ff;
+        	letter-spacing:2px;
+        	margin:9px auto;
+        }
+        .header p::first-letter{
+        	
+        	font-style:italic;
+        	font-weight: bold;
+        	
+        }
+		
+		.header p:hover{
+			background-color:grey;
+			color:white;
+		}
+		.header p+p{
+			padding-bottom:3px;
+			margin-bottom:0px;
+		}
+
+		/*=main*/
+		.main{
+			clear:both;
+		}
+		.top span{
+           font-size: 25px;
+           margin-right:60px;
+           margin-bottom:5px;
+           padding:6px;
+           border-bottom: 3px dotted green;
+           float:right;
+		}
+		.top span a{
+			text-decoration:none;
+			color:black;
+			text-shadow:2px 1px 2px #eee;
+		}
+		
+		h2{
+			color:red;
+			font-weight: 600;
+			margin-top:22px;
+
+			
+
+		}
+		.top span:hover{
+			border-right:3px solid aqua;
+			background:#336600;
+			border-bottom:none;
+		}
+		form{
+
+			box-sizing: border-box;
+			width:20%;
+			margin-right:5%;
+			float:right;
+
+
+
+		}
+		
+		
+		.right{
+			
+			width:100%;
+			text-indent:30px;
+			line-height:1.5em;
+			text-align: center;
+			
+
+		}
+		.right h3{
+			text-align: center;
+			margin-bottom:6px;
+			letter-spacing: 2px;
+			color:blue;
+			font-style: italic;
+
+		}
+
+		
+		label{
+			float:left;
+			display:block;
+			padding:2px;
+			margin:6px 6px;
+		}
+		legend{
+			margin-left:8px;
+			font-weight: 700;
+			color:blue;
+		}
+		.button{
+			
+			float:left;
+			padding:4px 8px;
+			clear:both;
+			margin-left:150px;
+			margin-top:10px;
+
+		}
+		.button:hover{
+			
+			background-color:aqua;
+		}
+		img{
+			width:100%;
+			height:30px;
+			margin-bottom:40px;
+			margin-top:30px;
+		}
+		.main h2{
+			text-align: center;
+			color:black;
+			font-size:27px;
+			clear:both;
+			padding-top:30px;
+			float:left;
+		}
+		.leg{
+			clear:both;
+			text-indent:20px;
+
+		}
+
+
+		/*=foot*/
+		.foot{
+			text-align:center;
+			padding-top:25px;
+			clear:both;
+			margin-top:0;
+
+		}
+		strong:hover{
+			color:white;
+
+
+		}
+		small{
+			color:blue;
+
+		}
+		small:hover{
+			text-decoration: underline red;
+		}
+		address{
+			font-variant: uppercase;
+			font-size:25px;
+		}
+    
+      
+       
+
+	</style>
+
+	
+</head>
+<body>
+  <div class="container">
+  	<div class="header">
+  		<h2>My name is Lisana</h2>
+  		<ul>
+  			<li><a href="#">shenghuorucimeihao </a></li>
+  			<li><a href="#">woquerucibaozao</a></li>
+  			<li><a href="#">zheyangbuhaobuhao</a></li>
+  		</ul>
+  		<p>Guanzhongdaxialvqinghoutongzhangguitongxiangyudaosheng
+  			baizhantangbukuaiyanxiaoliuchuzilidazuiwoyaochitanghu
+  			lumoxiaobeipaishandaohaiguofurongjinjiduliy
+  			imapingchuanheibaifenmingyibenzhengjingni</p>
+  		<p>Bnnianyoucifenhaobuchawuzhongshengyouyichenghaofaw
+  				ushangzaohutingyuanshenshenshenjixuwenjunnnegyouj
+  				iduochouqiashiyijiangchunshuixiangdongliuliushuil
+  				uohuachunquyetianshangrjianhunshuimingjiujiurener
+  			    dongxinanbeizhong</p>
+  			
+  	</div>
+  	<div class="main">
+  		<div class="top">
+  		<span><a href="#">wulinwaizhuan</a></span>
+  		<span><a href="#">tongfukezhan</a></span>
+  		<span><a href="#">pengyounihao</a></span>
+  	    </div>
+  		<h2>kuihuadianxueshou</h2>
+  		<p><a href="http://www.baidu.com"><img src="img/leopardskin.jpg" alt="a pictiure"></a></p>
+        <section class="left">
+        <form>
+        	<fieldset>
+        	<legend>fanzhewolai</legend>
+        	<label>zhaoguhaowo:<input type="password" ></label>
+        	<label>jiaruwomen:<input type="date" ></label>
+        	<label>lianxidianhua:<input type="number" ></label>
+        	<input type="submit" value="submit" class="button">
+        </fieldset>
+        </form>
+        </section>
+        <section class="right">
+        <h3>zuizhongyaodeshiyanqian</h3>
+        <p>weiruangugepingguohuohugejuanzhuosanxingwulunnizainali
+         wodouquanlizhichi mei
+         yourenherenhuibiwogengguanxinnigeng
+         zaihunigengdongdenideganshou qinggeiwodianyigedadadezanw
+         oderenshenghuiyinnigenggjingcai</p>
+        <p>shenghuobuzhishiyanqianhai  youshiheyuanfangrenherendoub
+        unenngzudangwoxunmengdejiaob
+        uwojianghuijiandingdechaozhew
+        odemengxiangchufa,paichuyiqiekunnan,zhanshengyiqiejiannan
+        xianzu,zuizhongdaodachenggongdebian,nashi nihuizaiwosheng
+        bianweiwohecaiduimawoqinaidexiaofengxianxuzhimoshu</p>
+    </section>
+    
+       <section class="leg">
+            <p> Bnnianyoucifenhaobuchawuzhongshengyouyichenghaofaw
+  				ushangzaohutingyuanshenshenshenjixuwenjunnnegyouj
+  				iduochouqiashiyijiangchunshuixiangdongliuliushuil
+  				uohuachunquyetianshangrjianhunshuimingjiujiurener
+  			    dongxinanbeizhong</p>
+  	</section>
+  </div>
+
+        <div class="foot">
+<strong>geiwoyibeiwangqingshui huanwoyishengbuliulei</strong>
+<small>&copy;nincaishen</small>
+<address>xilianghe</address>
+</div>
+</div>
+
+	</body>
+	</html>
