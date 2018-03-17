@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>tt</title>
+<meta charset ="utf-8">
+<script src="d:/jq/jquery-3.3.1.js"></script>
+<script src="d:/jq/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="d:/jq/jquery-ui-1.12.1.custom/jquery-ui.min.css" type="text/css">
+<script>
+    var pb,max=100,current=0;
+    $(document).ready(function(){
+        pb=$("#pb");
+        pb.progressbar({max:100})
+        setInterval(changepb,100);
+
+
+
+
+
+
+
+
+
+
+
+    });
+    function changepb(){
+        current++;
+        if(current>=100){
+            current=0;
+        }
+        pb.progressbar("option","value",current);
+    }
+    
+</script>
+</head>
+<body>
+<div id="pb">  </div>
+<br><br><br>
+<ul id="mu">
+    <li>qingui</li>
+    <li>tielu</li>
+    <li>gaotie</li>
+    <li>bashi</li>
+    <li>hangban</li>
+</ul>
+</body>
+</html>
