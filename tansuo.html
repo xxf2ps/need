@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>kongkongruye</title>
+	<style>
+	/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+	   *,*::before,*::after{
+	    	padding:0;
+	    	margin:0;
+	    	box-sizing:border-box;
+	    }
+	 h3{
+	 	font-size:45px;
+	 	color:blue;
+	 	font-family:Times,sans;
+	 	line-height:30px;
+	 	float:right;
+	 	position:fixed;
+	 	top:0;
+	 	right:0;
+	 }
+	 h3::before{
+	 	content:"";
+	 	display:table;
+	 }
+	 ul{
+	 	position:fixed;
+	 	top:0;
+	 	left:0;
+	 }
+	 ul{
+	 	margin-bottom:20px;
+	 }
+	 
+	 a{
+	 	text-decoration:none;
+	 	font-size:38px;
+	 }
+	 a:hover{
+	 	text-decoration-line:underline ;
+	 	text-decoration-style:dashed;
+	 	text-decoration-color:green;
+	 }
+
+	
+/*============keyibuyao+++++++*/
+/*第一模块*/
+		.xiang{
+    background:orange;
+	display:inline-block;
+	vertical-align:top;
+	width:300px;
+	margin-bottom:30px;
+	
+}
+/*第二模块*/
+select{
+    width:300px;
+	border:1px solid blue;
+	border-radius:4px;
+	background-color:pink;
+	height:50px;
+	display:inline-block;
+	vertical-align:top;
+	margin:0 auto;
+
+	
+	
+}
+/*第三模块*/
+.qusi{
+	border:1px solid blue;
+	width:300px;
+	padding:40px 15px;
+	margin:0 auto;
+	margin-top:28px;
+	margin-bottom:80px;
+	border-radius:14px;
+	box-shadow:3px 0px 4px #FAE999,
+	            0 4px 5px #5C9888;
+	display:inline-block;
+	vertical-align:top;
+
+}
+
+		
+.qusi p{
+
+color:blue;
+text-indent:23px;
+margin-bottom:11px;
+padding-top:12px;
+}
+h2{
+	text-align:center;
+	
+}
+hr{
+	color:purple;
+	font-weight:bold;
+}
+/*包裹三个模块在同一行上分成三等分*/
+	.container{
+		width:1200px;
+		margin:0 auto;
+		margin-top:40px;
+
+	}	
+	.width{
+		width:30%;
+		margin:0 10px;
+
+	}
+	/*后来添加的一些涉及到块级元素应用的内容及样式*/
+	.lxing{
+		width:600px;
+		border:2px solid red;
+		margin:0 auto;
+		margin-top:30px;
+		margin-bottom:30px;
+		padding:12px 20px;
+/*		transition:width 2s;
+*/	为了方便起见暂时停用了过渡动画效果
+	}
+	/*.lxing:Hover{
+		width:100%;
+	}*/
+	.lxing p{
+		line-height:1.3;
+		font-size:29px;
+		color:green;
+		display:block;
+		text-indent:23px;
+	}
+	.lxing p:first-line{
+		color:purple;
+		text-decoration:underline;
+	
+	}
+
+	 ::selection{
+		
+		color:red;
+	}
+	::-moz-selection{
+		color:red;
+}
+/*列表样式*/
+
+	.form{
+		padding:30px;
+		border:1px solid orange;
+		display:table;
+		margin:0 auto;
+
+		}
+
+		.form div{
+			display:table-row;	
+		}
+		.form label,.form input{
+         display:table-cell;
+         margin-bottom:15px;
+		}
+		.form label{
+			width:200px;
+			padding-right:5%;
+			text-align:right;
+		}
+		.form input{
+			width:300px;
+			text-align:center;
+
+
+		}
+		.form p{
+			display:table-caption;
+			caption-side:bottom;
+			width:300px;
+			color:#999;
+			font-style:italic;
+
+		}
+		
+
+
+	</style>
+	
+</head>
+<body>
+	<header>
+		<h3>hello world</h3>
+	<nav class="header-primary group">
+		
+		<ul>
+			<li><a href="">home</a></li>
+			<li><a href="">enterprize</a></li>
+			<li><a href="">windows</a></li>
+			<li><a href="">service</a></li>
+			<li><a href="">target</a></li>
+		</ul>
+
+	</nav>
+	</header>
+	<!-- 可以不要后面的内容 -->
+	<div class="container">
+	<button id="li" class="xiang">andlu is a play boy,he hate many people who love study and exercise .</button>
+	<select  id="san" class="width">who
+		<option value="1" selected>1</option>
+		<option value="2">2</option>
+		<option value="34">3</option>
+		<option value="4" selected>4</option>
+		<option value="5">5</option>
+	</select>
+	<div class="qusi width" id="xin">
+		<h2>hell jifoew </h2>
+		<p>fefefg jh fuiew f kwuieiperfte4 fkeui 3rdtuhie fkewufte
+		 fheuigtf kuafhei fukwueygtf fkawuhfger f keufre frkeawut  rfruke
+		frik;pik fektuihe dkuitfre klieurtf ifherif kufihaie kuaheritfg 
+	afekiu frekly feilj lieuio lireiot fl;eijhtgf lkueoi ligfueiufrt ifueof 
+ fjoeirf oluer </p><hr>
+		<p>fegefge ief fhu fekufe dkwueir klife lijfe loief ijfie oliugoeg 
+		fjie feklif ijuiofe iklhje oiujfe </p>
+		
+	</div>
+	</div>
+	<div class="lxing">
+		<p>lijfoeit
+		fleigjoertg lfieotfre fleitjoeter 
+	cvjielg; 
+fjieo;feof </p>
+<p>lfjieof lieofed flijefofg oiejirtf oijfeof fg trf grthgt gretg 
+regtrg  tfretg efrwetedt rgt grrge rrfgretg dfgersgt rtgre  rtrer
+fre  dftgertg rfg rgres ge rgfse ghf gse reagre ra gasrgserg frgsr</p>
+	<p>lfiejfieo lifeof loifeof oliveof lviejof loijeo gf</p>	
+	</div>
+	<div class="form" >
+		<form id=form>
+			<p>what can i do can you tell me </p>
+			<div>
+				<label for="">feffe</label>
+				<input type="text">
+
+			</div>
+			<div>
+				<label for="">fe</label>
+				<input type="text"  >
+				
+			</div>
+			<div>
+				<label for="">few</label>
+				<input type="text"  >
+				
+			</div>
+			<div>
+				<label for="">fe</label>
+				<input type="text"  >
+				
+			</div>
+			
+		</form>
+		
+	</div>
+	<script>
+		// 第一模块功能
+	let btn=document.getElementById('li');
+	btn.addEventListener('click',function(){
+		this.innerHTML='CHARLUORERT';
+		this.style.color='blue';
+		this.style.background='#aaa';
+	})
+      // 第二模块功能
+	let sele=document.getElementById('san');
+	sele.onchange=function(){
+	sele.style.color="red";
+	sele.style.background='lightgreen';
+ }
+
+   // 第三模块功能
+   let xin=document.getElementById('xin');
+   xin.onmouseover=function(){
+   	this.style.borderStyle='dotted';
+   	this.children[0].style.color='green';
+   	this.children[3].hidden=true;
+   	this.children[1].style.textShadow='1px 1px 2px #F06555';
+   }
+   
+
+  
+	</script>
+</body>
+</html>
